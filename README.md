@@ -1,4 +1,5 @@
 # AirBnB Clone Console Readme
+AirBnB clone- console group project is the project to be done in the team of two people,Rene Ntabana and Magot Garang.
 The objective of this project is to deploy a simplified version of the AirBnB website on a server. While it will not encompass all the features of the original platform, it will encompass enough fundamental concepts to serve as a foundation for higher-level programming.
 
 ## Initial Step: Develop a Command Interpreter for Managing AirBnB Objects
@@ -129,4 +130,4 @@ Defines quit option
 
 ## Authors
 * Rene Ntabana <r.ntabana@alustudent.com>
-* Magotgarang <m.guut@alustudent.com>
+* Magot Garang <m.guut@alustudent.com>
