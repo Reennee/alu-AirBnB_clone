@@ -1,7 +1,18 @@
 #!/usr/bin/python3
 from models.base_model import BaseModel
 
-my_model = BaseModel()
+class CustomModel(BaseModel):
+    def save(self):
+        # Add custom behavior here before calling the parent class's save method
+        print("Custom behavior before saving")
+        super().save()  # Call the parent class's save method
+
+    def to_dict(self):
+        # Add custom behavior here before calling the parent class's to_dict method
+        print("Custom behavior before converting to dict")
+        return super().to_dict()  # Call the parent class's to_dict method
+
+my_model = CustomModel()
 my_model.name = "Holberton"
 my_model.my_number = 89
 print(my_model)
