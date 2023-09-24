@@ -1,214 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AirBnB clone</title>
+        <link rel="stylesheet" href="styles/4-common.css">
+        <link rel="stylesheet" href="styles/3-header.css">
+        <link rel="stylesheet" href="styles/3-footer.css">
+        <link rel="stylesheet" href="styles/6-filters.css">
+        <link rel="stylesheet" href="styles/8-places.css">
+        <link rel="shortcut icon" href="images/icon.png">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air BnB Web Static</title>
-    <link rel="icon" type="image/x-icon" href="./images/icon.png">
-    <link rel="stylesheet" href="./styles/3-header.css">
-    <link rel="stylesheet" href="./styles/3-footer.css">
-    <link rel="stylesheet" href="./styles/4-common.css">
-    <link rel="stylesheet" href="./styles/6-filters.css">
-    <link rel="stylesheet" href="./styles/8-places.css">
-</head>
-
-<body>
-
-    <header>
-    </header>
-
-    <div class="container">
-        <section class="filters">
-            <div class="locations">
-                <h3>States</h3>
-                <h4>New York</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>Arizona</h2>
-                        <ul>
-                            <li>
-                                <h4>Page</h4>
-                            </li>
-                            <li>
-                                <h4>Page2</h4>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h2>California</h2>
-                        <ul>
-                            <li>
-                                <h4>San Francisco</h4>
-                            </li>
-                            <li>
-                                <h4>Los Altos</h4>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-            <div class="amenities">
-                <h3>Amenities</h3>
-                <h4>Internet, Kitchen...</h4>
-                <ul class="popover">
-                    <li>
-                        <h4>Internet</h4>
-                    </li>
-                    <li>
-                        <h4>TV</h4>
-                    </li>
-                    <li>
-                        <h4>Kitchen</h4>
-                    </li>
-                    <li>
-                        <h4>Iron</h4>
-                    </li>
-                </ul>
-            </div>
-            <button>Search</button>
-        </section>
-
-        <section class="places">
-            <div class="container">
-                <h1>
-                    Places
-                </h1>
+    </head>
+    <body>
+        <header>
+            <div class="logo"></div>
+        </header>
+        <div class="container">
+            <section class="filters">
+                <div class="locations">
+                    <h3>States</h3>
+                    <h4>California, Arizona...</h4>
+                    <ul class="popover">
+                        <li>
+                            <h2>Arizona:</h2>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>page 1</li>
+                                <li>page 2</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h2>California:</h2>
+                        </li>
+                        <li>
+                            <ul>
+                                <li>San Francisco</li>
+                                <li>Los Altos</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <h4>Internet, Kitchen...</h4>
+                    <ul class="popover">
+                        <li>Internet</li>
+                        <li>Kitchen</li>
+                        <li>Smart TV</li>
+                        <li>Pool</li>
+                    </ul>
+                </div>
+                <button>Search</button>
+            </section>
+            <section class="places">
+                <h1>Places</h1>
                 <article>
-                    <div class="intro">
-                        <h2>
-                            Kamuli
-                        </h2>
-                        <div class="price_by_night">
-                            $100
-                        </div>
+                    <h2>My home</h2>
+                    <div class="price_by_night">
+                        <p>$80</p>
                     </div>
-
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon"></div>
                             <p>2 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="bed_icon"></div>
-                            <p>1 Bedroom</p>
+                            <p>1 bedroom</p>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bath_icon"></div>
                             <p>1 Bathroom</p>
                         </div>
-
-
                     </div>
-
-                    <div class="user"><b>Owner:</b> Kay Brian </div>
+                    <div class="user">
+                        <b>Owner:</b> Kevin Nels
+                    </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur.
+                        <p>
+                                   offers 348 stylish and
+                                   comfortable rooms ideal
+                                   for corporate, convention
+                                   and leisure guests. Enjoy
+                                   breakfast at the F.L.A.G. Café
+                                   or sip on a soothing drink at
+                                   the 21 Degrees cocktail bar.
+                                   A boardroom and business
+                                   centre are available for
+                                    residents’ exclusive use.
+                        </p>
                     </div>
-
-
                 </article>
                 <article>
-                    <div class="intro">
-                        <h2>
-                            Kamuli
-                        </h2>
-                        <div class="price_by_night">
-                            $100
-                        </div>
+                    <h2>Tiny home</h2>
+                    <div class="price_by_night">
+                        <p>$65</p>
                     </div>
-
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon"></div>
-                            <p>2 Guests</p>
+                            <p>4 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="bed_icon"></div>
-                            <p>1 Bedroom</p>
+                            <p>2 bedrooms</p>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bath_icon"></div>
                             <p>1 Bathroom</p>
                         </div>
-
-
                     </div>
-
-                    <div class="user"><b>Owner:</b> Kay Brian </div>
+                    <div class="user">
+                        <b>Owner:</b> Adrien Agreste
+                    </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur.
+                        <p>
+                                      5-star Peermont D’oreale Grande
+                           features 182 beautifully designed and impeccably appointed
+                           rooms and suites that are fitted with plush, state-of-the-art
+                           facilities.The Club Floor and Lounge offers a full bouquet of personal
+                           and concierge services dedicated to the elite business
+                           traveller. Dine at the elegant Aurelia’s restaurant, indulge your
+                           senses at Octavia’s Sensorium Day Spa or sip on a cocktail
+                           while watching the African sunset kiss the earth goodnight
+                           at Neptune’s Pool Bar. 
+                        </p>
                     </div>
-
-
                 </article>
                 <article>
-                    <div class="intro">
-                        <h2>
-                            Kamuli
-                        </h2>
-                        <div class="price_by_night">
-                            $100
-                        </div>
+                    <h2>A suite</h2>
+                    <div class="price_by_night">
+                        <p>$180</p>
                     </div>
-
                     <div class="information">
                         <div class="max_guest">
-                            <div class="guest_icon"></div>
-                            <p>2 Guests</p>
+                            <p>6 Guests</p>
                         </div>
                         <div class="number_rooms">
-                            <div class="bed_icon"></div>
-                            <p>1 Bedroom</p>
+                            <p>3 bedrooms</p>
                         </div>
                         <div class="number_bathrooms">
-                            <div class="bath_icon"></div>
-                            <p>1 Bathroom</p>
+                            <p>3 Bathrooms</p>
                         </div>
-
-
                     </div>
-
-                    <div class="user"><b>Owner:</b> Kay Brian </div>
+                    <div class="user">
+                        <b>Owner:</b> Marinette Dupain-Cheng
+                    </div>
                     <div class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                        nisi ut
-                        aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur.
+                        <p>
+                                         4-star Peermon Mondior hotel
+                             sets an exciting standard in world-class business, conference
+                             and leisure accommodation. The hotel features 150 spacious
+                             rooms and suites furnished in contemporary African elegance
+                             and fitted with cutting-edge technology. Enjoy breakfast
+                             and light meals at the chic Oriana Restaurant or a sociable
+                             cocktail at the Silver Moon bar.
+                             Affordable accommodation with friendly service, the 3-star
+                             select-services Metcourt Suites offers a home away from
+                             home. The hotel features 77 spacious suites with contemporary
+                             furnishings. Breakfast is served in the stylish Primavera
+                             restaurant.
+                        </p>
                     </div>
-
-
                 </article>
-
-
-            </div>
-
-        </section>
-
-    </div>
-
-
-    <footer>
-        <p>Best School</p>
-    </footer>
-
-</body>
-
+            </section>
+        </div>
+        <footer>
+            <p>Best School</p>
+        </footer>
+    </body>
 </html>
-
